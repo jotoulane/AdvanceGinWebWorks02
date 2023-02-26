@@ -1,0 +1,32 @@
+{"level":"DEBUG","time":"2023-02-26T15:42:17.600+0800","caller":"webWorks01/main.go:34","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-02-26T15:42:17.640+0800","caller":"mysql/mysql.go:25","msg":"connect DB failed","error":"dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context."}
+{"level":"DEBUG","time":"2023-02-26T15:42:46.738+0800","caller":"webWorks01/main.go:34","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-02-26T15:42:46.778+0800","caller":"mysql/mysql.go:25","msg":"connect DB failed","error":"dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context."}
+{"level":"DEBUG","time":"2023-02-26T15:44:43.876+0800","caller":"webWorks01/main.go:34","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-02-26T15:44:43.910+0800","caller":"mysql/mysql.go:25","msg":"connect DB failed","error":"dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context."}
+{"level":"DEBUG","time":"2023-02-26T15:45:19.723+0800","caller":"webWorks01/main.go:34","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-02-26T15:45:19.761+0800","caller":"mysql/mysql.go:25","msg":"connect DB failed","error":"dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context."}
+{"level":"DEBUG","time":"2023-02-26T15:48:25.406+0800","caller":"webWorks01/main.go:34","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-02-26T15:48:25.439+0800","caller":"mysql/mysql.go:26","msg":"connect DB failed","error":"dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context."}
+{"level":"DEBUG","time":"2023-02-26T15:51:21.865+0800","caller":"webWorks01/main.go:34","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-02-26T15:51:21.900+0800","caller":"mysql/mysql.go:27","msg":"connect DB failed","error":"dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context."}
+{"level":"DEBUG","time":"2023-02-26T15:52:31.031+0800","caller":"webWorks01/main.go:34","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-02-26T15:52:31.067+0800","caller":"mysql/mysql.go:27","msg":"connect DB failed","error":"dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context."}
+{"level":"DEBUG","time":"2023-02-26T15:52:59.930+0800","caller":"webWorks01/main.go:34","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-02-26T15:52:59.980+0800","caller":"mysql/mysql.go:27","msg":"connect DB failed","error":"dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context."}
+{"level":"DEBUG","time":"2023-02-26T15:54:36.353+0800","caller":"webWorks01/main.go:34","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-02-26T15:54:36.388+0800","caller":"mysql/mysql.go:29","msg":"connect DB failed","error":"dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context."}
+{"level":"DEBUG","time":"2023-02-26T15:55:27.244+0800","caller":"webWorks01/main.go:34","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-02-26T15:55:27.277+0800","caller":"mysql/mysql.go:29","msg":"connect DB failed","error":"dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context."}
+{"level":"DEBUG","time":"2023-02-26T15:55:45.532+0800","caller":"webWorks01/main.go:34","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-02-26T15:55:45.565+0800","caller":"mysql/mysql.go:29","msg":"connect DB failed","error":"dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context."}
+{"level":"DEBUG","time":"2023-02-26T15:56:05.789+0800","caller":"webWorks01/main.go:34","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-02-26T15:57:10.813+0800","caller":"webWorks01/main.go:34","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-02-26T15:59:15.719+0800","caller":"webWorks01/main.go:34","msg":"logger init success..."}
+{"level":"INFO","time":"2023-02-26T15:59:58.785+0800","caller":"logger/logger.go:70","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2023-02-26T16:00:02.930+0800","caller":"logger/logger.go:70","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2023-02-26T16:00:50.712+0800","caller":"webWorks01/main.go:73","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-02-26T16:00:50.712+0800","caller":"webWorks01/main.go:82","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-02-26T16:00:56.223+0800","caller":"webWorks01/main.go:34","msg":"logger init success..."}
+{"level":"INFO","time":"2023-02-26T16:01:10.852+0800","caller":"webWorks01/main.go:73","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-02-26T16:01:10.852+0800","caller":"webWorks01/main.go:82","msg":"Server exiting"}
