@@ -1,11 +1,11 @@
 app:
-  name: "webWorks01"
+  name: "webWorks02"
   mode: "dev"
   port: 8081
 
 log:
   level: "debug"
-  filename: "webWorks01"
+  filename: "webWorks02"
   max_size: 200
   max_age: 30
   max_backups: 7

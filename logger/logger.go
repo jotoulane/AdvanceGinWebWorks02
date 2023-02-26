@@ -8,6 +8,7 @@ import (
 	"runtime/debug"
 	"strings"
 	"time"
+	"webWorks02/settings"
 
 	"github.com/spf13/viper"
 
@@ -18,12 +19,13 @@ import (
 )
 
 // Init InitLogger 初始化Logger
-func Init() (err error) {
+func Init(cfg *settings.LogConfig) (err error) {
 	writeSyncer := getLogWriter(
-		viper.GetString("log.filename"),
-		viper.GetInt("log.max_size"),
-		viper.GetInt("log.max_backups"),
-		viper.GetInt("log.max_age"))
+		cfg.Filename,
+		cfg.MaxSize,
+		cfg.MaxBackups,
+		cfg.MaxAge,
+	)
 	encoder := getEncoder()
 	var l = new(zapcore.Level)
 	err = l.UnmarshalText([]byte(viper.GetString("log.level")))

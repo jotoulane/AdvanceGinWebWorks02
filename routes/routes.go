@@ -2,7 +2,7 @@ package routes
 
 import (
 	"net/http"
-	"webWorks01/logger"
+	"webWorks02/logger"
 
 	"github.com/gin-gonic/gin"
 )

@@ -9,11 +9,11 @@ import (
 	"os/signal"
 	"syscall"
 	"time"
-	"webWorks01/dao/mysql"
-	"webWorks01/dao/redis"
-	"webWorks01/logger"
-	"webWorks01/routes"
-	"webWorks01/settings"
+	"webWorks02/dao/mysql"
+	"webWorks02/dao/redis"
+	"webWorks02/logger"
+	"webWorks02/routes"
+	"webWorks02/settings"
 
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
@@ -26,7 +26,7 @@ func main() {
 		return
 	}
 	//2.初始化日志
-	if err := logger.Init(); err != nil {
+	if err := logger.Init(settings.Conf.LogConfig); err != nil {
 		fmt.Printf("Init logger failed, err: %v\n", err)
 		return
 	}
