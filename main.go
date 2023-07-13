@@ -15,7 +15,6 @@ import (
 	"webWorks02/routes"
 	"webWorks02/settings"
 
-	"github.com/spf13/viper"
 	"go.uber.org/zap"
 )
 
@@ -51,7 +50,7 @@ func main() {
 	r := routes.SetUp()
 	//6.启动服务（优雅关机）
 	srv := &http.Server{
-		Addr:    fmt.Sprintf(":%d", viper.GetInt("app.port")),
+		Addr:    fmt.Sprintf(":%d", settings.Conf.NameConfig.Port),
 		Handler: r,
 	}
 

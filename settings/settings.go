@@ -10,13 +10,18 @@ import (
 var Conf = new(AppConfig)
 
 type AppConfig struct {
-	Name         string `mapstructure:"name"`
-	Mode         string `mapstructure:"mode"`
-	Version      string `mapstructure:"version"`
-	Port         int    `mapstructure:"port"`
+	*NameConfig  `mapstructure:"app"`
 	*LogConfig   `mapstructure:"log"`
 	*MySqlConfig `mapstructure:"mysql"`
 	*RedisConfig `mapstructure:"redis"`
+}
+type NameConfig struct {
+	Name      string `mapstructure:"name"`
+	Mode      string `mapstructure:"mode"`
+	Version   string `mapstructure:"version"`
+	StartTime string `mapstructure:"start_time"`
+	MachineID int64  `mapstructure:"machine_id"`
+	Port      int    `mapstructure:"port"`
 }
 
 type LogConfig struct {
@@ -29,20 +34,20 @@ type LogConfig struct {
 
 type MySqlConfig struct {
 	Host         string `mapstructure:"host"`
-	username     string `mapstructure:"username"`
+	Username     string `mapstructure:"username"`
 	Password     string `mapstructure:"password"`
 	DbName       string `mapstructure:"dbname"`
-	Port         string `mapstructure:"port"`
-	MaxOpenConns string `mapstructure:"max_open_conns"`
-	MaxIdleConns string `mapstructure:"max_idle_conns"`
+	Port         int    `mapstructure:"port"`
+	MaxOpenConns int    `mapstructure:"max_open_conns"`
+	MaxIdleConns int    `mapstructure:"max_idle_conns"`
 }
 
 type RedisConfig struct {
 	Host     string `mapstructure:"host"`
 	Password string `mapstructure:"password"`
-	Port     string `mapstructure:"port"`
-	DB       string `mapstructure:"db"`
-	PoolSize string `mapstructure:"pool_size"`
+	Port     int    `mapstructure:"port"`
+	DB       int    `mapstructure:"db"`
+	PoolSize int    `mapstructure:"pool_size"c`
 }
 
 func Init() (err error) {
