@@ -1,11 +1,11 @@
 app:
-  name: "web02"
+  name: "gin-web"
   mode: "dev"
   port: 8081
 
 log:
   level: "debug"
-  filename: "web02"
+  filename: "gin-web"
   max_size: 200
   max_age: 30
   max_backups: 7
